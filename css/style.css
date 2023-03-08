@@ -86,3 +86,29 @@ main > h1 {
 .experience {
     padding-top: 2rem;
 }
+
+/* Contact */
+.input:not(:first-child), .btn {
+    margin-top: 1rem;
+}
+
+label {
+    display: inline-block;
+    width: 5rem;
+    text-align: left;
+}
+
+.btn {
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    background-color: cadetblue;
+}
+
+.btn:hover {
+    border: 2px solid cadetblue;
+    background-color: rgba(31, 78, 121, 255);
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
